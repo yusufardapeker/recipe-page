@@ -2,7 +2,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Built with
 
--   Scss
+-   SCSS
 -   Css BEM Methodology
 -   Mobile-first workflow
 
