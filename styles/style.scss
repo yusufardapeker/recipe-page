@@ -1,5 +1,4 @@
 // Colors
-
 $nutmeg: hsl(14, 45%, 36%);
 $dark-raspberry: hsl(332, 51%, 32%);
 
@@ -12,15 +11,17 @@ $dark-charcoal: hsl(24, 5%, 18%);
 
 // Fonts
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+$font-body: "Outfit", sans-serif;
+$font-title: "Young Serif", serif;
 
 body {
 	font-size: 16px;
-	font-family: "Outfit", sans-serif;
+	font-family: $font-body;
 }
 
 h2,
 h1 {
-	font-family: "Young Serif", serif;
+	font-family: $font-title;
 	color: $nutmeg;
 }
 
