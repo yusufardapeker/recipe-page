@@ -55,6 +55,12 @@ section {
 	margin-bottom: 12px;
 }
 
+@mixin menuElement {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
 // Recipe Introduction
 
 .recipe-introduction {
@@ -63,13 +69,10 @@ section {
 	gap: 24px;
 
 	&__recipe-info {
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
-
 		&__recipe-title {
 			font-size: 30px;
 			color: $dark-charcoal;
+			margin-bottom: 16px;
 		}
 
 		&__recipe-description {
@@ -91,9 +94,7 @@ section {
 	}
 
 	&__menu {
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
+		@include menuElement;
 
 		&__li {
 			margin-left: 22px;
@@ -115,9 +116,7 @@ section {
 
 .ingredients {
 	&__menu {
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
+		@include menuElement;
 
 		&__li {
 			list-style: disc;
@@ -139,9 +138,7 @@ section {
 
 .instructions {
 	&__menu {
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
+		@include menuElement;
 
 		&__li {
 			list-style: decimal;

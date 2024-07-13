@@ -45,14 +45,10 @@ section {
   flex-direction: column;
   gap: 24px;
 }
-.recipe-introduction__recipe-info {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
 .recipe-introduction__recipe-info__recipe-title {
   font-size: 30px;
   color: hsl(24, 5%, 18%);
+  margin-bottom: 16px;
 }
 .recipe-introduction__recipe-info__recipe-description {
   line-height: 1.4;

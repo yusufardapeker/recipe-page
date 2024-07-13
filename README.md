@@ -4,9 +4,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Built with
 
--   SCSS
--   Css BEM Methodology
--   Mobile-first workflow
+- SCSS
+- Css BEM Methodology
+- Mobile-first workflow
 
 ## About Development Process
 
